@@ -1,0 +1,118 @@
+main {
+  width: 100%;
+  background: #fff;
+  padding: 0 30px;
+  justify-content: space-between;
+  display: flex;
+  margin: 50px 0;
+}
+aside {
+  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 8px 0px rgb(255, 255, 255),
+    0px 6px 20px 0px rgb(0, 0, 0, 0.19);
+}
+aside header img {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  border: 5px solid green;
+  border-radius: 50%;
+}
+aside header h1 {
+  color: rgba(62, 177, 41, 0.8);
+}
+aside ol {
+  text-align: start;
+  border-bottom: 5px solid rgba(62, 177, 41, 0.8);
+  padding-bottom: 20px;
+}
+aside ol li {
+  margin-top: 20px;
+  list-style: none;
+  position: relative;
+  color: #808080;
+  font-weight: 350;
+}
+aside ol li::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: -15px;
+  top: 8px;
+  background: red;
+}
+main article {
+  width: 65%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+main article .card {
+  width: 100%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(62, 177, 41, 0.8),
+    rgba(145, 211, 188, 0.8)
+  );
+  border-radius: 15px;
+  /* background: rgba(62, 177, 41, 0.7); */
+  /* border: 1px solid green; */
+}
+main article img {
+  width: 100%;
+  border-radius: 15px;
+  height: 200px;
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+main article .card p {
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 0 10px;
+}
+@media screen and (max-width: 901px) {
+  main {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  main aside {
+    width: 80%;
+  }
+  aside ol {
+    padding-left: 0px;
+    padding-bottom: 28px;
+  }
+  main article {
+    margin-top: 30px;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  main {
+    padding: 0 15px;
+  }
+  main aside {
+    width: 90%;
+  }
+  aside ol {
+    text-align: start;
+    padding-left: 26px;
+    padding-bottom: 28px;
+  }
+  main article {
+    grid-template-columns: 100%;
+    width: 90%;
+  }
+}
