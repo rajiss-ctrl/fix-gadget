@@ -5,7 +5,7 @@
 .faqs .faq {
   margin: 15px 0 15px 0;
   padding: 2px;
-  background: #fff;
+  background: rgb(248, 247, 247);
   border-radius: 8px;
 
   /* box-shadow: 0px 0px 7px rgb(0, 0, 0, 0.1); */
@@ -20,10 +20,10 @@
   content: "";
   position: absolute;
   top: 50%;
-  right: -3px;
+  right: 2px;
   transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 35px;
   background-image: url("../images/greenArrow.jpeg");
   background-position: center;
   background-size: contain;
@@ -47,6 +47,13 @@
 }
 @media screen and (max-width: 600px) {
   .faqs .faq-question {
+    font-size: 14px;
     padding-right: 10px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .faqs .faq-question {
+    font-size: 12px;
+    padding-right: 13px;
   }
 }

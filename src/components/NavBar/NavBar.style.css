@@ -148,3 +148,15 @@
     background: transparent;
   }
 }
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .list-wrapper img {
+    width: 30px;
+    height: 30px;
+  }
+}
