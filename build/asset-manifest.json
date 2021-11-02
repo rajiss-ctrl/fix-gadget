@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.503d458e.chunk.css",
+    "main.js": "/static/js/main.38bc1787.chunk.js",
+    "main.js.map": "/static/js/main.38bc1787.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3751de83.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3751de83.js.map",
+    "static/js/2.ad7097c6.chunk.js": "/static/js/2.ad7097c6.chunk.js",
+    "static/js/2.ad7097c6.chunk.js.map": "/static/js/2.ad7097c6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.503d458e.chunk.css.map": "/static/css/main.503d458e.chunk.css.map",
+    "static/js/2.ad7097c6.chunk.js.LICENSE.txt": "/static/js/2.ad7097c6.chunk.js.LICENSE.txt",
+    "static/media/assemblepc.e11d1f0d.jpeg": "/static/media/assemblepc.e11d1f0d.jpeg",
+    "static/media/cable.b80b8aee.jpeg": "/static/media/cable.b80b8aee.jpeg",
+    "static/media/call.8cc3b90b.jpeg": "/static/media/call.8cc3b90b.jpeg",
+    "static/media/chargerpcs.f33779f7.jpeg": "/static/media/chargerpcs.f33779f7.jpeg",
+    "static/media/desktopandpc.e412a4cc.jpeg": "/static/media/desktopandpc.e412a4cc.jpeg",
+    "static/media/Header.style.css": "/static/media/engrbtn.5c1665ac.jpeg",
+    "static/media/francis1.dbdd8a33.jpg": "/static/media/francis1.dbdd8a33.jpg",
+    "static/media/Faq.style.css": "/static/media/greenArrow.72167904.jpeg",
+    "static/media/laptop.7a38b067.jpeg": "/static/media/laptop.7a38b067.jpeg",
+    "static/media/logo.7c4f9cb7.jpeg": "/static/media/logo.7c4f9cb7.jpeg",
+    "static/media/mailicon.7035f6bd.jpeg": "/static/media/mailicon.7035f6bd.jpeg",
+    "static/media/rajissctrl.a1f64c5d.svg": "/static/media/rajissctrl.a1f64c5d.svg",
+    "static/media/ram.5f0d0191.jpeg": "/static/media/ram.5f0d0191.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3751de83.js",
+    "static/js/2.ad7097c6.chunk.js",
+    "static/css/main.503d458e.chunk.css",
+    "static/js/main.38bc1787.chunk.js"
+  ]
+}
