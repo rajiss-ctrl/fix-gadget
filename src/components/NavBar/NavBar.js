@@ -5,13 +5,15 @@ import './NavBar.style.css';
 
 const NavBar = () => {
     const [open ,setOpen] = useState(false);
-      const [screenWidth , setScreenWidth] = useState(0);
+    const [screenWidth , setScreenWidth] = useState(0);
     const trackScrenWidth = ()=>{
-        const width = window.innerWidth;
+        if(screenWidth){
+            const width = window.innerWidth;
         setScreenWidth(width);
         if(width > 800){
             setOpen(true)
     
+        }
         }
     }
 
