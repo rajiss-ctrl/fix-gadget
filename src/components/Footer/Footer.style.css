@@ -104,6 +104,6 @@ fieldset img {
 }
 @media screen and (max-width: 280px) {
   fieldset img {
-    width: 34px;
+    width: 15px;
   }
 }
