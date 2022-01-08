@@ -47,13 +47,13 @@
 }
 @media screen and (max-width: 600px) {
   .faqs .faq-question {
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 10px;
   }
 }
 @media screen and (max-width: 414px) {
   .faqs .faq-question {
-    font-size: 12px;
+    font-size: 14px;
     padding-right: 13px;
   }
 }

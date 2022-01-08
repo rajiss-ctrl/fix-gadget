@@ -6,7 +6,7 @@ import './NavBar.style.css';
 const NavBar = () => {
     const [open ,setOpen] = useState(false);
     const [screenWidth , setScreenWidth] = useState(0);
-    const trackScrenWidth = ()=>{
+    const trackScreenWidth = ()=>{
         if(screenWidth){
             const width = window.innerWidth;
         setScreenWidth(width);
@@ -17,13 +17,15 @@ const NavBar = () => {
     }
 
     useEffect(()=>{
-trackScrenWidth();
-window.addEventListener('resize',trackScrenWidth);
-return ()=>window.addEventListener('resize',trackScrenWidth);
+trackScreenWidth();
+window.addEventListener('resize',trackScreenWidth);
+return ()=>window.addEventListener('resize',trackScreenWidth);
 
     },[])
     return (
-            <nav className="nav-bar">
+            <nav className="nav-bar"  onClick={()=>{
+                        setOpen(!open)
+                    }}>
                 <img className="logo" src={logo} alt={'repair pc pic'} />
                 <div className="list-wrapper">
                      <img 

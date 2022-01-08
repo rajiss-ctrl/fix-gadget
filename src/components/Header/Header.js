@@ -11,7 +11,7 @@ const Header = () => {
             <div className="herder_preview">
            <h1>YOUR PC, YOUR COMPANION AT WORK!
                </h1> 
-               <p>HAVE COMPUTER PROBLEMS?</p>
+               <p>HAVING COMPUTER PROBLEMS?</p>
                <Link to="/contact">we can help</Link>
                </div>
         </header>

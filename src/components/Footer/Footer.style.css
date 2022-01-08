@@ -57,7 +57,10 @@ fieldset img {
   width: 40px;
   border-radius: 5px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+  .footer_section {
+    padding: 30px 20px 30px 20px;
+  }
   .footer_remark {
     width: 55%;
   }
@@ -89,7 +92,7 @@ fieldset img {
 }
 @media screen and (max-width: 540px) {
   footer {
-    font-size: 13px;
+    font-size: 16px;
   }
   .footer_nav,
   .footer_remark {

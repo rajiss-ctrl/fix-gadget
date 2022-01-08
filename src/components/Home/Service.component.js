@@ -35,7 +35,7 @@ const Service = () => {
                 </div>
                 <div className="card">
                     <img src={Desk_laptopImg} alt={'desktop and loptop'} />
-                    <p>we repaire, installation and maintainance service</p>
+                    <p>we repaire and install </p>
                 </div>
                 <div className="card">
                     <img src={CableImg} alt={'networking cable pic'} />

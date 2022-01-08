@@ -13,11 +13,13 @@ import './Footer.style.css';
 const Footer = () => {
     const [faqs,setFaqs] = useState([
         {
+            id:1,
             question:'Can you repair faulty smart phone?',
             answer:'Yes, we are repairing all kind of gadgets',
             open:false
         },
         {
+            id:2,
             question:'Did you sell laptop?',
             answer:'We have trusted dealers of fairly used and new one we can recommend',
             open:false
@@ -38,14 +40,14 @@ const Footer = () => {
             <footer>
         <section className="preview">
             <p>We are ready to serve you and that's the more reason we have our office
-            opened from Monday to Saturdays of every week. If your pc develop fault dont 
+            opened from Monday to Saturdays of every week. If your pc developed fault dont 
             worry we have you covered .</p>
             <img className="circle" src={Circle} alt={'circle pic'} />
             <h2>Frequently Asked Questions</h2>
             <div className="faqs">
                 {faqs.map((faq,i)=>
-                    <div className="faq" >
-                    <Faqs faq={faq} index={i} toggleFag={toggleFag}/> 
+                    <div className="faq"  key={i} index={i}>
+                    <Faqs faq={faq}  index={i} toggleFag={toggleFag}/> 
                     </div>
                 )}
             </div>
