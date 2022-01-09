@@ -1,27 +1,27 @@
-import React, { useEffect,useState} from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.jpeg';
 import './NavBar.style.css';
 
 const NavBar = () => {
     const [open ,setOpen] = useState(false);
-    const [screenWidth , setScreenWidth] = useState(0);
-    const trackScreenWidth = ()=>{
-        if(screenWidth){
-            const width = window.innerWidth;
-        // setScreenWidth(width);
-        // if(width > 768){
-        //     setOpen(true)
-        // }
-        }
-    }
+    // const [screenWidth , setScreenWidth] = useState(0);
+//     const trackScreenWidth = ()=>{
+//         if(screenWidth){
+//             const width = window.innerWidth;
+//         setScreenWidth(width);
+//         if(width > 768){
+//             setOpen(true)
+//         }
+//         }
+//     }
 
-    useEffect(()=>{
-trackScreenWidth();
-window.addEventListener('resize',trackScreenWidth);
-return ()=>window.addEventListener('resize',trackScreenWidth);
+//     useEffect(()=>{
+// trackScreenWidth();
+// window.addEventListener('resize',trackScreenWidth);
+// return ()=>window.addEventListener('resize',trackScreenWidth);
 
-    },[])
+//     },[])
     return (
             <nav className="nav-bar"  onClick={()=>{
                         setOpen(!open)
