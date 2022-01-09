@@ -9,10 +9,10 @@ const NavBar = () => {
     const trackScreenWidth = ()=>{
         if(screenWidth){
             const width = window.innerWidth;
-        setScreenWidth(width);
-        if(width > 800){
-            setOpen(true)
-        }
+        // setScreenWidth(width);
+        // if(width > 768){
+        //     setOpen(true)
+        // }
         }
     }
 
