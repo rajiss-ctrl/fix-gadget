@@ -9,11 +9,10 @@ const Header = () => {
                 <p><img src={CallIcon} alt={'phone icon'} /> <a  href="tel:+2348032987531">+2348032987531</a></p>
             </div>
             <div className="herder_preview">
-           <h1>YOUR PC, YOUR COMPANION AT WORK!
-               </h1> 
+                <h1>YOUR PC, YOUR COMPANION AT WORK!</h1> 
                <p>HAVING COMPUTER PROBLEMS?</p>
                <Link to="/contact">we can help</Link>
-               </div>
+            </div>
         </header>
      );
 }

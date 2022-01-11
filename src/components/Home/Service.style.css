@@ -26,6 +26,11 @@ aside header img {
 }
 aside header h1 {
   color: rgba(62, 177, 41, 0.8);
+  font-weight: 500;
+}
+aside header p {
+  font-weight: 500;
+  font-style: italic;
 }
 aside ol {
   text-align: start;
